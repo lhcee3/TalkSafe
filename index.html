@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter/Decrypter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="moving-background"></div>
+    <div class="container">
+        <h1>TalkSafe</h1>
+        <textarea id="inputText" placeholder="Enter text to encrypt or decrypt"></textarea>
+        <label for="encryptionKey">Encryption Key:</label>
+        <input type="text" id="encryptionKey" placeholder="Enter encryption key">
+        <button onclick="encrypt()">Encrypt</button>
+        <button onclick="decrypt()">Decrypt</button>
+        <h3>Result:</h3>
+        <textarea id="outputText" readonly></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
